@@ -6,7 +6,7 @@ function App() {
   const [result,setResult]= useState('');
   const fileInputRef = useRef();
 const background =
-  "https://i.pinimg.com/originals/16/46/24/1646243661201a0892cc4b1a64fcbacf.jpg";
+  "https://smehelper.vastraapp.com/assets/marketing-tools/images/SMEhelperPage/visiting-card.png";
 
   useEffect(()=>{
 
