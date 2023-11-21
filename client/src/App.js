@@ -33,7 +33,7 @@ console.log(file);
       <img src={background} />
       <div className="box">
         <h1>Simple File Sharing!</h1>
-        <p>Upload and share the download link</p>
+        <h3>Upload and share the download link</h3>
         <button onClick={()=>handleUpload()}>Upload</button>
         <input type="file" 
         style={{display:"none"}}
