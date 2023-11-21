@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background: black;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+img{
+  width: 30%;
+}
+
+.box{
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: #445A6F;
+  margin: 40px 0;
+
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #445A6F;
+  background-color: #445A6F;
+  color: white;
+  font-size: 20px;
+  margin: 30px 0;
+
+}
