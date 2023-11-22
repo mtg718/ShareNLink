@@ -36,12 +36,58 @@ h1{
 
 button{
   width: 150px;
-  height: 40px;
+  height: 50px;
   border-radius: 5px;
   border: 2px solid #445A6F;
   background-color: #445A6F;
-  color: black;
+  color: rgb(250, 242, 242);
   font-size: 20px;
   margin: 50px 0px;
 
 }
+ #link-data{
+  color: rgb(65, 62, 62);
+ 
+}
+
+@media (max-width: 937px) {
+  #bg {
+   display: none; 
+  }
+}
+
+@media (max-width: 630px) {
+  .box{
+   width: 500px;
+  height: 400px; 
+  }
+}
+
+
+@media (max-width: 530px) {
+  .box{
+   width: 400px;
+  height: 400px; 
+  }
+}
+
+@media (max-width: 420px) {
+  .box{
+   width: 350px;
+  height: 400px; 
+  }
+}
+
+@media (max-width: 445px) {
+ #link-data{
+  color: rgb(65, 62, 62);
+  
+  font-size: 13px;
+ 
+}
+
+#link-para{
+  margin-left: 1rem;
+}
+}
+
